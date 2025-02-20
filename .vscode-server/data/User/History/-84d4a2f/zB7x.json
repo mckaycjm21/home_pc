@@ -1,0 +1,9 @@
+{
+    "workbench.colorTheme": "GitHub Dark Default",
+    "color-highlight.markerType": "dot-before",
+    "editor.guides.bracketPairs": true,
+    "bracket-pair-colorizer-2.depreciation-notice": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.openRepositoryInParentFolders": "always",
+    "editor.minimap.enabled": false
+}
