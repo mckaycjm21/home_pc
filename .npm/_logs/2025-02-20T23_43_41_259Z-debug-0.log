@@ -1,0 +1,93 @@
+0 verbose cli /usr/bin/node /usr/bin/npm
+1 info using npm@9.2.0
+2 info using node@v18.19.1
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 2ms
+5 timing config:load:file:/usr/share/nodejs/npm/npmrc Completed in 8ms
+6 timing config:load:builtin Completed in 8ms
+7 timing config:load:cli Completed in 2ms
+8 timing config:load:env Completed in 1ms
+9 timing config:load:file:/home/mckaycjm21/.cache/typescript/5.7/.npmrc Completed in 0ms
+10 timing config:load:project Completed in 1ms
+11 timing config:load:file:/home/mckaycjm21/.npmrc Completed in 1ms
+12 timing config:load:user Completed in 1ms
+13 timing config:load:file:/etc/npmrc Completed in 0ms
+14 timing config:load:global Completed in 0ms
+15 timing config:load:setEnvs Completed in 2ms
+16 timing config:load Completed in 17ms
+17 timing npm:load:configload Completed in 17ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @types/react@ts5.7 @types/react-dom@ts5.7 @types/jsdom@ts5.7
+21 verbose argv "install" "--ignore-scripts" "@types/react@ts5.7" "@types/react-dom@ts5.7" "@types/jsdom@ts5.7" "--save-dev" "--user-agent" "typesInstaller/5.7.3"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing config:load:flatten Completed in 4ms
+24 timing npm:load:display Completed in 2753ms
+25 verbose logfile logs-max:10 dir:/home/mckaycjm21/.npm/_logs/2025-02-20T23_43_41_259Z-
+26 verbose logfile /home/mckaycjm21/.npm/_logs/2025-02-20T23_43_41_259Z-debug-0.log
+27 timing npm:load:logFile Completed in 7ms
+28 timing npm:load:timers Completed in 0ms
+29 timing npm:load:configScope Completed in 0ms
+30 timing npm:load Completed in 2780ms
+31 timing config:load:flatten Completed in 1ms
+32 timing arborist:ctor Completed in 1ms
+33 silly logfile start cleaning logs, removing 1 files
+34 silly logfile done cleaning log files
+35 timing idealTree:init Completed in 29ms
+36 timing arborist:ctor Completed in 0ms
+37 http fetch GET 200 https://registry.npmjs.org/@types%2freact-dom 233ms (cache updated)
+38 http fetch GET 200 https://registry.npmjs.org/@types%2freact 249ms (cache updated)
+39 http fetch GET 200 https://registry.npmjs.org/@types%2fjsdom 271ms (cache updated)
+40 timing idealTree:userRequests Completed in 278ms
+41 silly idealTree buildDeps
+42 silly fetch manifest @types/jsdom@21.1.7
+43 silly fetch manifest @types/react@19.0.10
+44 silly fetch manifest @types/react-dom@19.0.4
+45 silly placeDep ROOT @types/jsdom@21.1.7 REPLACE for:  want: 21.1.7
+46 silly placeDep ROOT @types/react@19.0.10 REPLACE for:  want: 19.0.10
+47 silly placeDep ROOT @types/react-dom@19.0.4 REPLACE for:  want: 19.0.4
+48 timing idealTree:#root Completed in 21ms
+49 timing idealTree:node_modules/@types/jsdom Completed in 0ms
+50 timing idealTree:node_modules/@types/react Completed in 0ms
+51 timing idealTree:node_modules/@types/react-dom Completed in 0ms
+52 timing idealTree:buildDeps Completed in 23ms
+53 timing idealTree:fixDepFlags Completed in 0ms
+54 timing idealTree Completed in 333ms
+55 timing reify:loadTrees Completed in 334ms
+56 timing reify:diffTrees Completed in 2ms
+57 silly reify moves {}
+58 timing reify:retireShallow Completed in 1ms
+59 timing reify:createSparse Completed in 0ms
+60 timing reify:loadBundles Completed in 0ms
+61 silly audit bulk request {
+61 silly audit   '@types/less': [ '3.0.7' ],
+61 silly audit   '@types/node': [ '22.10.10' ],
+61 silly audit   '@types/stylus': [ '0.48.43' ],
+61 silly audit   '@types/tough-cookie': [ '4.0.5' ],
+61 silly audit   csstype: [ '3.1.3' ],
+61 silly audit   entities: [ '4.5.0' ],
+61 silly audit   parse5: [ '7.2.1' ],
+61 silly audit   'types-registry': [ '0.1.708' ],
+61 silly audit   'undici-types': [ '6.20.0' ],
+61 silly audit   '@types/jsdom': [ '21.1.7' ],
+61 silly audit   '@types/react': [ '19.0.10' ],
+61 silly audit   '@types/react-dom': [ '19.0.4' ]
+61 silly audit }
+62 timing reify:unpack Completed in 0ms
+63 timing reify:unretire Completed in 0ms
+64 timing build:queue Completed in 0ms
+65 timing build:deps Completed in 0ms
+66 timing build Completed in 0ms
+67 timing reify:build Completed in 1ms
+68 timing reify:trash Completed in 0ms
+69 timing reify:save Completed in 34ms
+70 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 133ms
+71 timing auditReport:getReport Completed in 135ms
+72 silly audit report {}
+73 timing auditReport:init Completed in 0ms
+74 timing reify:audit Completed in 135ms
+75 timing reify Completed in 479ms
+76 timing command:install Completed in 487ms
+77 verbose exit 0
+78 timing npm Completed in 3280ms
+79 info ok
